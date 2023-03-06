@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-color: #19c8fa;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -57,8 +61,8 @@ nav {
     padding: 25px 0;
 }
 
-.nav-element:first-child a{
-    color: #19c8fa;
+.nav-element:first-child a {
+    color: var(--main-color);
 }
 
 .nav-element a {
