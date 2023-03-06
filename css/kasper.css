@@ -92,6 +92,8 @@ nav {
     line-height: 30px;
     position: relative;
     align-self: center;
+    border-left: 1px solid #FFF;
+    margin-left: 15px;
 }
 
 .nav-search-icon svg {
