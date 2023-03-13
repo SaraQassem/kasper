@@ -27,7 +27,10 @@ body {
 /* ***************************  header  *********************************** */
 header {
     z-index: 1;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 header .container {
@@ -117,9 +120,6 @@ nav {
     background-image: url("../images/landing.jpg");
     height: 100vh;
     width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .overlay {
