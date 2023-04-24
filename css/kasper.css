@@ -7,6 +7,7 @@
 :root {
     --main-color: #19c8fa;
     --transparent-color: rgb(15, 116, 143, 70%);
+    --section-padding: 100px;
 }
 
 html {
@@ -17,11 +18,60 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* ************************************************************************ */
+/* ***********************  local  framework  ***************************** */
 .container {
     width: 1170px;
     margin: 0 auto;
     position: relative;
 }
+
+.main-heading {
+    margin-bottom: 30px;
+    padding: var(--section-padding);
+}
+
+.main-heading h2 {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.main-heading h2::before, .main-heading h2::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.main-heading h2::before {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: #000;
+    transform: translateX(-50%);
+}
+
+.main-heading h2::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: #FFF;
+    transform: translate(-50%, calc(50% - 1px));
+}
+
+.main-heading p {
+    width: 550px;
+    color: #777;
+    text-align: center;
+    margin: 0 auto;
+}
+/* ************************************************************************ */
+/* ************************************************************************ */
 
 /* ************************************************************************ */
 /* ***************************  header  *********************************** */
@@ -202,6 +252,46 @@ nav {
     border: none;
     background-color: var(--main-color);
 }
+/* ************************************************************************ */
+/* ************************************************************************ */
 
+/* ************************************************************************ */
+/* ***********************  services section  ***************************** */
+.services {
+    background-color: #FFF;
+    width: 100vw;
+    display: inline-block;
+    z-index: -1;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    display: flex;
+    width: 46%;
+}
+
+.service-item i {
+    font-size: 3em;
+    margin-right: 40px;
+}
+
+.service-text {
+    padding-bottom: 50px;
+}
+
+.service-text h3{
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.service-text p {
+    color: #777;
+    line-height: 2;
+}
 /* ************************************************************************ */
 /* ************************************************************************ */
