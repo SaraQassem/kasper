@@ -298,3 +298,50 @@ nav {
 }
 /* ************************************************************************ */
 /* ************************************************************************ */
+
+/* ************************************************************************ */
+/* *************************  design section  ***************************** */
+.design {
+    height: 600px;
+    position: relative;
+    background-image: url("../images/design-features.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.design img {
+    position: absolute;
+    left: 25%;
+    bottom: -10%;
+    transform: translateX(-50%);
+}
+
+.design .design-heading {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.design .intro-card {
+    right: 0;
+}
+
+.design-list {
+    list-style: none;
+}
+
+.design-list-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.design-list-item::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f108";
+    font-weight: 900;
+    margin-right: 20px;
+    position: relative;
+    top: 1px;
+}
+/* ************************************************************************ */
+/* ************************************************************************ */
