@@ -26,6 +26,17 @@ body {
     position: relative;
 }
 
+.intro-card {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFF;
+    background-color: var(--transparent-color);
+    padding: 50px;
+    display: flex;
+}
+
 .main-heading {
     margin-bottom: 30px;
     padding: var(--section-padding);
@@ -178,16 +189,8 @@ nav {
     height: 100%;
 }
 
-.intro {
-    width: 50%;
-    position: absolute;
-    top: 50%;
+.landing-image .intro-card {
     left: 0;
-    transform: translateY(-50%);
-    color: #FFF;
-    background-color: var(--transparent-color);
-    padding: 50px;
-    display: flex;
     justify-content: flex-end;
 }
 
