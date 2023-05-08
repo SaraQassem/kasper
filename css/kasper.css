@@ -533,3 +533,135 @@ nav {
 }
 /* ************************************************************************ */
 /* ************************************************************************ */
+
+/* ************************************************************************ */
+/* ***************************  skills section  *************************** */
+.our-skills {
+    padding: var(--section-padding);
+}
+
+.our-skills .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.our-skills .container > div {
+    flex-basis: 45%;
+}
+
+.our-skills .container > div > h3 {
+    font-weight: normal;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.our-skills .container > div > p {
+    color: #777;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.our-skills .review {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.our-skills .review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.our-skills .review .text {
+    border-bottom: 1px solid #ccc;
+    line-height: 1.8;
+}
+
+.our-skills .review .text p:last-child {
+    text-align: right;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.our-skills .dots span {
+    width: 15px;
+    height: 15px;
+    border-color: #CCC;
+}
+
+.our-skills .dots span.active-dot {
+    border: none;
+}
+
+.prog-holder {
+    margin-bottom: 40px;
+}
+
+.prog-holder h4 {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.prog {
+    background-color: #dedadc;
+    height: 30px;
+}
+
+.prog span {
+    background-color: var(--main-color);
+    display: inline-block;
+    height: 100%;
+    position: relative;
+}
+
+.prog-holder:first-of-type span {
+    width: 90%;
+}
+
+.prog-holder:nth-of-type(2) span {
+    width: 85%;
+}
+
+.prog-holder:nth-of-type(3) span {
+    width: 80%;
+}
+
+.prog-holder:last-of-type span {
+    width: 90%;
+}
+
+.prog span::before {
+    content: attr(data-progress);
+    width: 40px;
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+    padding: 4px 0;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    transform: translateX(50%) translateY(-20px);
+    border-radius: 5px;
+}
+
+.prog span::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(50%) translateY(-20px);
+    border-color: #000 transparent transparent transparent;
+    border-width: 9px;
+    border-style: solid;
+
+}
+/* ************************************************************************ */
+/* ************************************************************************ */
