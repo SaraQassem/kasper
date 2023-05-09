@@ -785,3 +785,63 @@ nav {
 }
 /* ************************************************************************ */
 /* ************************************************************************ */
+
+/* ************************************************************************ */
+/* **************************  subscribe section  ************************* */
+.subscribe {
+    background-image: url("../images/subscribe.jpg");
+    background-size: cover;
+    position: relative;
+    padding: var(--section-padding);
+    color: #FFF;
+}
+
+.subscribe .overlay {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.subscribe .container {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe form {
+    width: 500px;
+    position: relative;
+}
+
+.subscribe form i {
+    color: #FFF;
+    font-size: 1.3333em;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.subscriber-email {
+    background: none;
+    padding: 20px 20px 20px 60px;
+    border: 1px solid #FFF;
+    border-right: none;
+    caret-color: var(--main-color);
+    width: calc(100% - 130px);
+}
+
+.subscribe form .submit {
+    width: 125px;
+    padding: 20px;
+    background-color: var(--main-color);
+    border: 1px solid #FFF;
+    border-left: none;
+    text-transform: uppercase;
+    color: #FFF;
+    position: absolute;
+}
+
+.subscribe p {
+    line-height: 2;
+    margin-left: 50px;
+}
+/* ************************************************************************ */
+/* ************************************************************************ */
