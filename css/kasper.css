@@ -665,3 +665,31 @@ nav {
 }
 /* ************************************************************************ */
 /* ************************************************************************ */
+
+/* ************************************************************************ */
+/* ****************************  quote section  *************************** */
+.quote {
+    background-image: url("../images/quote.jpg");
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    padding: var(--section-padding) 0;
+    position: relative;
+}
+
+.quote .overlay {
+    background-color: rgb(0, 0, 0, 75%);
+}
+
+.quote q {
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+}
+
+.quote p {
+    position: relative;
+}
+/* ************************************************************************ */
+/* ************************************************************************ */
