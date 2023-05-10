@@ -423,6 +423,13 @@ nav {
     position: relative;
 }
 
+/*  adjust for medium screens*/
+@media (max-width: 1199px) {
+    .project {
+        flex-basis: 50%;
+    }
+}
+
 .project img {
     width: 100%;
     height: 100%;
