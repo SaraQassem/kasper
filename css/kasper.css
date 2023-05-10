@@ -323,6 +323,13 @@ nav {
     width: 46%;
 }
 
+/*  adjust for small screens*/
+@media (max-width: 991px) {
+    .service-item {
+        width: 100%;
+    }
+}
+
 .service-item i {
     font-size: 3em;
     margin-right: 40px;
