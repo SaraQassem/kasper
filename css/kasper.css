@@ -724,7 +724,8 @@ nav {
     background-size: cover;
     color: #FFF;
     text-align: center;
-    padding: var(--section-padding) 0;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
     position: relative;
 }
 
