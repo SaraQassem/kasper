@@ -586,11 +586,19 @@ nav {
 .our-skills .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .our-skills .container > div {
     flex-basis: 45%;
+}
+
+/*  adjust for small screens*/
+@media (max-width: 991px) {
+    .our-skills .container > div {
+        flex-basis: 100%;
+    }
 }
 
 .our-skills .container > div > h3 {
