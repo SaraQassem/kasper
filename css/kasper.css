@@ -897,6 +897,10 @@ nav {
     color: #FFF;
 }
 
+.subscriber-email::placeholder {
+    color: #FFF;
+}
+
 .subscribe form .submit {
     width: 130px;
     padding: 20px;
