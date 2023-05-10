@@ -419,7 +419,6 @@ nav {
 
 .project {
     flex-basis: 25%;
-    height: 300px;
     overflow: hidden;
     position: relative;
 }
