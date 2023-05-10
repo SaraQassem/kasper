@@ -912,6 +912,19 @@ nav {
     line-height: 2;
     margin-left: 50px;
 }
+
+/*  adjust for small screens*/
+@media (max-width: 991px) {
+    .subscribe .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .subscribe p {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+}
 /* ************************************************************************ */
 /* ************************************************************************ */
 
