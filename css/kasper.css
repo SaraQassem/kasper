@@ -541,12 +541,20 @@ nav {
 .stats .container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: var(--transparent-color);
 }
 
 .stats .stat-item {
     padding: 50px;
     flex-basis: 25%;
+}
+
+/*  adjust for small screens  */
+@media (max-width: 991px) {
+    .stats .stat-item {
+        flex-basis: 50%;
+    }
 }
 
 .stats .stat-item i {
