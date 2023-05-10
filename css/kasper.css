@@ -943,7 +943,8 @@ nav {
 /* ************************************************************************ */
 /* ***************************  footer section  *************************** */
 footer {
-    padding: calc(var(--section-padding) / 2);
+    padding-top: calc(var(--section-padding) / 2);
+    padding-bottom: calc(var(--section-padding) / 2);
     background-image: url("../images/subscribe.jpg");
     background-size: cover;
     color: #FFF;
