@@ -720,12 +720,20 @@ nav {
 .pricing-plans {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
 }
 
 .plan {
     background-color: #fcfcfc;
     flex-basis: 23%;
+}
+
+/*  adjust for medium screens*/
+@media (max-width: 1199px) {
+    .plan {
+        flex-basis: 31%;
+    }
 }
 
 .plan-head {
@@ -788,7 +796,7 @@ nav {
     border: 1px solid var(--main-color);
     display: block;
     padding: 20px;
-    margin: 30px auto;
+    margin: 30px auto 60px;
     width: fit-content;
     text-decoration: none;
 }
