@@ -187,8 +187,9 @@ nav {
 }
 
 .nav-element {
-    padding: 25px 15px;
+    padding: 25px 10px;
     position: relative;
+    font-size: 14px;
 }
 
 .nav-element:first-child a {
