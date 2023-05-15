@@ -333,6 +333,21 @@ nav {
 .landing-image .dots span.active-dot {
     border: none;
 }
+
+/* adjust for XS screens */
+@media (max-width: 767px) {
+    .landing-image .intro-card {
+        width: 100%;
+    }
+
+    .landing-image .intro-card .content {
+        max-width: 100%;
+    }
+
+    .landing-navigation .arrows {
+        display: none;
+    }
+}
 /* ************************************************************************ */
 /* ************************************************************************ */
 
