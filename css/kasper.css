@@ -1045,6 +1045,7 @@ nav {
 .contact-us .content {
     display: flex;
     justify-content: space-between;
+    padding-bottom: var(--section-padding);
 }
 
 .contact-us form {
@@ -1066,7 +1067,6 @@ nav {
 .contact-us form .button {
     border: none;
     margin-right: 0;
-    margin-bottom: var(--section-padding);
 }
 
 .contact-us .content .info {
@@ -1092,6 +1092,27 @@ nav {
 
 .contact-us .content .info .address-details address {
     line-height: 2;
+}
+
+/* adjust for XS screens */
+@media (max-width: 767px) {
+    .contact-us .content {
+        flex-direction: column;
+    }
+
+    .contact-us form {
+        order: 2;
+    }
+
+    .contact-us .content .info {
+        text-align: center;
+        order: 1;
+        margin-bottom: 40px;
+    }
+
+    .contact-us form,  .contact-us .content .info{
+        width: 100%;
+    }
 }
 /* ************************************************************************ */
 /* ************************************************************************ */
