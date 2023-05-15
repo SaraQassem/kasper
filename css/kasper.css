@@ -364,6 +364,7 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: var(--section-padding);
 }
 
 .service-item {
@@ -395,6 +396,22 @@ nav {
 .service-text p {
     color: #777;
     line-height: 2;
+}
+
+/* adjust for XS screens */
+@media (max-width: 767px) {
+    .services-content {
+        text-align: center;
+    }
+
+    .service-item {
+        flex-direction: column;
+    }
+
+    .service-item i {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
 }
 /* ************************************************************************ */
 /* ************************************************************************ */
