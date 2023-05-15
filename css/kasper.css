@@ -882,6 +882,13 @@ nav {
     }
 }
 
+/*  adjust for mobile screens*/
+@media (max-width: 574px) {
+    .plan {
+        flex-basis: 100%;
+    }
+}
+
 .plan-head {
     border-width: 1px 0 1px 0;
     border-color: var(--main-color);
