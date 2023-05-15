@@ -545,6 +545,17 @@ nav {
 .project:hover .project-info {
     transform: translateY(-100%);
 }
+
+.portfolio .button {
+    margin-bottom: calc(var(--section-padding) + 30px);
+}
+
+/* adjust for XS screens */
+@media (max-width: 767px) {
+    .project {
+        flex-basis: 100%;
+    }
+}
 /* ************************************************************************ */
 /* ************************************************************************ */
 
