@@ -743,6 +743,19 @@ nav {
     border: none;
 }
 
+/* adjust for XS screens */
+@media (max-width: 767px) {
+    .our-skills .review {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .our-skills .review img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
 .prog-holder {
     margin-bottom: 40px;
 }
