@@ -460,6 +460,17 @@ nav {
     position: relative;
     top: 1px;
 }
+
+/* adjust for XS screens */
+@media (max-width: 767px) {
+    .design img {
+        display: none;
+    }
+
+    .design .intro-card {
+        width: 100%;
+    }
+}
 /* ************************************************************************ */
 /* ************************************************************************ */
 
